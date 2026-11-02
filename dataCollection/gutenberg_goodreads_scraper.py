@@ -8,7 +8,7 @@ Output CSV columns: QUOTE, AUTHOR, TITLE, LIKES, TAGS
 
 Install:  pip install requests beautifulsoup4
 Run:      python gutenberg_goodreads_scraper.py
-          python gutenberg_goodreads_scraper.py --min-likes 10 --output quotes.csv
+          python gutenberg_goodreads_scraper.py --min-likes 5 --output quotes.csv
 """
 
 import argparse
