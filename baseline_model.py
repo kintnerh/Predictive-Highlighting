@@ -1,6 +1,6 @@
 """
-Baseline Model: TF-IDF Feature Extractor + Logistic Regression Salience Classifier.
-Implements unigram/bigram tokenization, IDF weighting, and logistic classification with L2 regularization.
+Baseline Model: TF-IDF Feature Extractor + Logistic Regression Salience Classifier
+Implements unigram/bigram tokenization, IDF weighting, and logistic classification with L2 regularization
 """
 
 import math
@@ -37,13 +37,13 @@ class SimpleTfidfVectorizer:
             for gram in ngrams:
                 doc_counts[gram] = doc_counts.get(gram, 0) + 1
 
-        # Filter by min_df
+        #filter by min_df
         filtered = {k: v for k, v in doc_counts.items() if v >= self.min_df}
         # Sort by frequency and truncate to max_features
         sorted_terms = sorted(filtered.items(), key=lambda x: x[1], reverse=True)[:self.max_features]
         self.vocabulary_ = {term: idx for idx, (term, _) in enumerate(sorted_terms)}
 
-        # Compute smoothed IDF: log((1 + n_docs) / (1 + doc_count)) + 1
+        #compute smoothed IDF: log((1 + n_docs) / (1 + doc_count)) + 1
         n_terms = len(self.vocabulary_)
         self.idf_ = np.zeros(n_terms)
         for term, idx in self.vocabulary_.items():
@@ -63,7 +63,7 @@ class SimpleTfidfVectorizer:
                 if gram in self.vocabulary_:
                     matrix[row_idx, self.vocabulary_[gram]] += 1.0
 
-        # Multiply by IDF and L2 normalize
+        #multiply by IDF and L2 normalize
         matrix = matrix * self.idf_
         norms = np.linalg.norm(matrix, axis=1, keepdims=True)
         norms[norms == 0] = 1.0
@@ -92,14 +92,14 @@ class LogisticRegressionBaseline:
         self.weights = np.zeros(n_features)
         self.bias = 0.0
 
-        # Class weighting to handle imbalance
+        #class weighting to handle imbalance
         pos_weight = (n_samples - np.sum(y)) / max(np.sum(y), 1.0)
 
         for _ in range(self.epochs):
             scores = np.dot(X, self.weights) + self.bias
             preds = self._sigmoid(scores)
             
-            # Weighted loss gradient
+            #weighted loss gradient
             sample_weights = np.where(y == 1, pos_weight, 1.0)
             errors = (preds - y) * sample_weights
 
@@ -118,4 +118,3 @@ class LogisticRegressionBaseline:
     def predict(self, X: np.ndarray, threshold: float = 0.5) -> np.ndarray:
         probs = self.predict_proba(X)
         return (probs >= threshold).astype(int)
-
