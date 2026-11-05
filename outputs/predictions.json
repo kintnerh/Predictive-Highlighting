@@ -1,0 +1,172 @@
+[
+  {
+    "sentence_id": "gg_001",
+    "book_title": "The Great Gatsby",
+    "author": "F. Scott Fitzgerald",
+    "genre": "Modernist Fiction",
+    "candidate_text": "So we beat on, boats against the current, borne back ceaselessly into the past.",
+    "context_excerpt": "Gatsby believed in the green light, the orgastic future that year by year recedes before us. It eluded us then, but that's no matter\u2014tomorrow we will run faster, stretch out our ar...",
+    "ground_truth_highlight": 1,
+    "predicted_salience_score": 0.6048,
+    "predicted_label": 1,
+    "is_correct": true,
+    "token_overlap_with_target": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0
+    }
+  },
+  {
+    "sentence_id": "gg_002",
+    "book_title": "The Great Gatsby",
+    "author": "F. Scott Fitzgerald",
+    "genre": "Modernist Fiction",
+    "candidate_text": "There are only the pursued, the pursuing, the busy and the tired.",
+    "context_excerpt": "\"Nevertheless you did throw me over,\" said Jordan suddenly. \"You threw me over on the telephone. I don't give a damn about you now, but it was a new experience for me, and I felt a...",
+    "ground_truth_highlight": 1,
+    "predicted_salience_score": 0.7895,
+    "predicted_label": 1,
+    "is_correct": true,
+    "token_overlap_with_target": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0
+    }
+  },
+  {
+    "sentence_id": "gg_003",
+    "book_title": "The Great Gatsby",
+    "author": "F. Scott Fitzgerald",
+    "genre": "Modernist Fiction",
+    "candidate_text": "We shook hands.",
+    "context_excerpt": "There are only the pursued, the pursuing, the busy and the tired. We shook hands. \"Nick, have you got any tobacco?\" he asked.",
+    "ground_truth_highlight": 0,
+    "predicted_salience_score": 0.3463,
+    "predicted_label": 0,
+    "is_correct": true,
+    "token_overlap_with_target": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0
+    }
+  },
+  {
+    "sentence_id": "gg_004",
+    "book_title": "The Great Gatsby",
+    "author": "F. Scott Fitzgerald",
+    "genre": "Modernist Fiction",
+    "candidate_text": "\"Nick, have you got any tobacco?\" he asked.",
+    "context_excerpt": "We shook hands. \"Nick, have you got any tobacco?\" he asked. He looked at his watch and got up.",
+    "ground_truth_highlight": 0,
+    "predicted_salience_score": 0.249,
+    "predicted_label": 0,
+    "is_correct": true,
+    "token_overlap_with_target": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0
+    }
+  },
+  {
+    "sentence_id": "gg_005",
+    "book_title": "The Great Gatsby",
+    "author": "F. Scott Fitzgerald",
+    "genre": "Modernist Fiction",
+    "candidate_text": "He looked at her the way all women want to be looked at by a man.",
+    "context_excerpt": "The officer looked at Daisy while she was speaking, in a way that every young girl wants to be looked at sometime. He looked at her the way all women want to be looked at by a man....",
+    "ground_truth_highlight": 1,
+    "predicted_salience_score": 0.5615,
+    "predicted_label": 1,
+    "is_correct": true,
+    "token_overlap_with_target": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0
+    }
+  },
+  {
+    "sentence_id": "gg_006",
+    "book_title": "The Great Gatsby",
+    "author": "F. Scott Fitzgerald",
+    "genre": "Modernist Fiction",
+    "candidate_text": "Because it seemed romantic to me I have remembered the incident ever since.",
+    "context_excerpt": "He looked at her the way all women want to be looked at by a man. Because it seemed romantic to me I have remembered the incident ever since. His name was Jay Gatsby, and I hadn't ...",
+    "ground_truth_highlight": 0,
+    "predicted_salience_score": 0.4811,
+    "predicted_label": 0,
+    "is_correct": true,
+    "token_overlap_with_target": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0
+    }
+  },
+  {
+    "sentence_id": "fr_001",
+    "book_title": "Frankenstein",
+    "author": "Mary Shelley",
+    "genre": "Gothic Science Fiction",
+    "candidate_text": "Beware; for I am fearless, and therefore powerful.",
+    "context_excerpt": "\"You have destroyed the work which you began; what is it that you intend? Do you dare to break your promise?\" Beware; for I am fearless, and therefore powerful. \"I will watch with ...",
+    "ground_truth_highlight": 1,
+    "predicted_salience_score": 0.4966,
+    "predicted_label": 0,
+    "is_correct": false,
+    "token_overlap_with_target": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0
+    }
+  },
+  {
+    "sentence_id": "fr_002",
+    "book_title": "Frankenstein",
+    "author": "Mary Shelley",
+    "genre": "Gothic Science Fiction",
+    "candidate_text": "Nothing is so painful to the human mind as a great and sudden change.",
+    "context_excerpt": "The sun might shine or the clouds might lower: but nothing could appear to me as it had done. Nothing is so painful to the human mind as a great and sudden change. The sun might sh...",
+    "ground_truth_highlight": 1,
+    "predicted_salience_score": 0.4507,
+    "predicted_label": 0,
+    "is_correct": false,
+    "token_overlap_with_target": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0
+    }
+  },
+  {
+    "sentence_id": "fr_003",
+    "book_title": "Frankenstein",
+    "author": "Mary Shelley",
+    "genre": "Gothic Science Fiction",
+    "candidate_text": "The sun might shine or the clouds might lower: but nothing could appear to me as it had done.",
+    "context_excerpt": "Nothing is so painful to the human mind as a great and sudden change. The sun might shine or the clouds might lower: but nothing could appear to me as it had done. I had been calm,...",
+    "ground_truth_highlight": 0,
+    "predicted_salience_score": 0.5528,
+    "predicted_label": 1,
+    "is_correct": false,
+    "token_overlap_with_target": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0
+    }
+  },
+  {
+    "sentence_id": "fr_004",
+    "book_title": "Frankenstein",
+    "author": "Mary Shelley",
+    "genre": "Gothic Science Fiction",
+    "candidate_text": "I had been calm, but now a strange agitation possessed me.",
+    "context_excerpt": "The sun might shine or the clouds might lower: but nothing could appear to me as it had done. I had been calm, but now a strange agitation possessed me. I could not sleep, but pace...",
+    "ground_truth_highlight": 0,
+    "predicted_salience_score": 0.3161,
+    "predicted_label": 0,
+    "is_correct": true,
+    "token_overlap_with_target": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0
+    }
+  }
+]
