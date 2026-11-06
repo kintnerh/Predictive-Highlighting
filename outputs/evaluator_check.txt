@@ -1,0 +1,25 @@
+Hand-Checked Evaluator Tests
+Team: Alley Cats
+Testing Module: src/evaluator.py
+
+Test Case 1: Token-Level F1 Overlap
+  Reference text: 'It is a truth universally acknowledged'
+  Predicted text: 'a truth universally acknowledged that a man'
+  Expected Precision: 0.5714 | Computed: 0.5714
+  Expected Recall:    0.6667 | Computed: 0.6667
+  Expected F1:        0.6154 | Computed: 0.6154
+  Test case 1 passed! Token F1 matches hand-calculated values exactly.
+
+Test Case 2: NDCG@3 Ranking Metric
+  Ranked binary labels: [1, 0, 1]
+  Hand-calculated DCG@3:  1.5000
+  Hand-calculated IDCG@3: 1.6309
+  Expected NDCG@3: 0.9197 | Computed NDCG@3: 0.9197
+  Test case 2 passed! NDCG@3 matches analytical hand-calculation exactly.
+
+Test Case 3: Edge Case Verification
+  - Empty prediction text -> F1 = 0.0 (PASSED)
+  - Empty reference text  -> F1 = 0.0 (PASSED)
+  - Zero-relevance ranked list -> NDCG = 0.0 (PASSED)
+
+All hand-checked evaluator tests processed successfully!
