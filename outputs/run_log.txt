@@ -1,0 +1,18 @@
+Training books: ['austen_pride_and_prejudice', 'bronte_wuthering_heights']
+  -> Train instances: 12 (4 highlights)
+Development books: ['fitzgerald_great_gatsby', 'shelley_frankenstein']
+  -> Dev instances:   10 (5 highlights)
+Fitted TF-IDF vocabulary size: 300 n-grams
+Trained Logistic Regression baseline classifier with class weighting.
+
+Held-out development set results:
+Accuracy: 0.7000
+Precision: 0.7500
+Recall: 0.6000
+F1 Score: 0.6667
+Confusion Matrix: TP=3, FP=1, FN=2, TN=4
+NDCG@5 for fitzgerald_great_gatsby: 1.0000 (Ranked labels: [np.int64(1), np.int64(1), np.int64(1), np.int64(0), np.int64(0), np.int64(0)])
+NDCG@5 for shelley_frankenstein: 0.6934 (Ranked labels: [np.int64(0), np.int64(1), np.int64(1), np.int64(0)])
+Macro-averaged NDCG@5 across held-out books: 0.8467
+
+Saved 10 predictions to: predictions.json
