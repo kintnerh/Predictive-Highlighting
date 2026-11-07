@@ -1,0 +1,210 @@
+[
+  {
+    "book_id": "austen_pride_and_prejudice",
+    "title": "Pride and Prejudice",
+    "author": "Jane Austen",
+    "genre": "Classic Romance",
+    "sentences": [
+      {
+        "sentence_id": "pp_001",
+        "text": "It is a truth universally acknowledged, that a single man in possession of a good fortune, must be in want of a wife.",
+        "is_highlight": 1,
+        "likes": 18245,
+        "context_before": "Chapter 1.",
+        "context_after": "However little known the feelings or views of such a man may be on his first entering a neighbourhood, this truth is so well fixed in the minds of the surrounding families, that he is considered as the rightful property of some one or other of their daughters."
+      },
+      {
+        "sentence_id": "pp_002",
+        "text": "However little known the feelings or views of such a man may be on his first entering a neighbourhood, this truth is so well fixed in the minds of the surrounding families, that he is considered as the rightful property of some one or other of their daughters.",
+        "is_highlight": 0,
+        "likes": 0,
+        "context_before": "It is a truth universally acknowledged, that a single man in possession of a good fortune, must be in want of a wife.",
+        "context_after": "\"My dear Mr. Bennet,\" said his lady to him one day, \"have you heard that Netherfield Park is let at last?\""
+      },
+      {
+        "sentence_id": "pp_003",
+        "text": "\"My dear Mr. Bennet,\" said his lady to him one day, \"have you heard that Netherfield Park is let at last?\"",
+        "is_highlight": 0,
+        "likes": 0,
+        "context_before": "However little known the feelings or views of such a man may be on his first entering a neighbourhood, this truth is so well fixed in the minds of the surrounding families, that he is considered as the rightful property of some one or other of their daughters.",
+        "context_after": "Mr. Bennet replied that he had not."
+      },
+      {
+        "sentence_id": "pp_004",
+        "text": "Mr. Bennet replied that he had not.",
+        "is_highlight": 0,
+        "likes": 0,
+        "context_before": "\"My dear Mr. Bennet,\" said his lady to him one day, \"have you heard that Netherfield Park is let at last?\"",
+        "context_after": "\"But it is,\" returned she; \"for Mrs. Long has just been here, and she told me all about it.\""
+      },
+      {
+        "sentence_id": "pp_005",
+        "text": "I cannot fix on the hour, or the spot, or the look or the words, which laid the foundation. It is too long ago. I was in the middle before I knew that I had begun.",
+        "is_highlight": 1,
+        "likes": 7120,
+        "context_before": "Elizabeth's spirits soon rising to playfulness again, she wanted Mr. Darcy to account for his having ever fallen in love with her.",
+        "context_after": "\"My beauty you had early withstood, and as for my manners, my behaviour to you was at least always bordering on the uncivil, and I never spoke to you without rather wishing to give you pain than not.\""
+      },
+      {
+        "sentence_id": "pp_006",
+        "text": "Elizabeth's spirits soon rising to playfulness again, she wanted Mr. Darcy to account for his having ever fallen in love with her.",
+        "is_highlight": 0,
+        "likes": 0,
+        "context_before": "They walked on, without knowing in what direction.",
+        "context_after": "I cannot fix on the hour, or the spot, or the look or the words, which laid the foundation. It is too long ago. I was in the middle before I knew that I had begun."
+      },
+      {
+        "sentence_id": "pp_007",
+        "text": "\"My beauty you had early withstood, and as for my manners, my behaviour to you was at least always bordering on the uncivil, and I never spoke to you without rather wishing to give you pain than not.\"",
+        "is_highlight": 0,
+        "likes": 0,
+        "context_before": "I cannot fix on the hour, or the spot, or the look or the words, which laid the foundation. It is too long ago. I was in the middle before I knew that I had begun.",
+        "context_after": "\"Now be sincere; did you admire me for my impertinence?\""
+      }
+    ]
+  },
+  {
+    "book_id": "bronte_wuthering_heights",
+    "title": "Wuthering Heights",
+    "author": "Emily Brontë",
+    "genre": "Gothic Fiction",
+    "sentences": [
+      {
+        "sentence_id": "wh_001",
+        "text": "Whatever our souls are made of, his and mine are the same.",
+        "is_highlight": 1,
+        "likes": 13408,
+        "context_before": "He shall never know how I love him: and that, not because he's handsome, Nelly, but because he's more myself than I am.",
+        "context_after": "And Linton's is as different as a moonbeam from lightning, or frost from fire."
+      },
+      {
+        "sentence_id": "wh_002",
+        "text": "He shall never know how I love him: and that, not because he's handsome, Nelly, but because he's more myself than I am.",
+        "is_highlight": 0,
+        "likes": 0,
+        "context_before": "\"I've no more business to marry Edgar Linton than I have to be in heaven; and if the wicked man in there had not brought Heathcliff so low, I shouldn't have thought of it.\"",
+        "context_after": "Whatever our souls are made of, his and mine are the same."
+      },
+      {
+        "sentence_id": "wh_003",
+        "text": "And Linton's is as different as a moonbeam from lightning, or frost from fire.",
+        "is_highlight": 0,
+        "likes": 0,
+        "context_before": "Whatever our souls are made of, his and mine are the same.",
+        "context_after": "Nelly, I see now that you think me a selfish wretch; but did it never strike you that if Heathcliff and I married, we should be beggars?"
+      },
+      {
+        "sentence_id": "wh_004",
+        "text": "If all else perished, and he remained, I should still continue to be; and if all else remained, and he were annihilated, the universe would turn to a mighty stranger.",
+        "is_highlight": 1,
+        "likes": 8940,
+        "context_before": "My love for Linton is like the foliage in the woods: time will change it, I'm well aware, as winter changes the trees. My love for Heathcliff resembles the eternal rocks beneath: a source of little visible delight, but necessary.",
+        "context_after": "I should not seem a part of it."
+      },
+      {
+        "sentence_id": "wh_005",
+        "text": "I should not seem a part of it.",
+        "is_highlight": 0,
+        "likes": 0,
+        "context_before": "If all else perished, and he remained, I should still continue to be; and if all else remained, and he were annihilated, the universe would turn to a mighty stranger.",
+        "context_after": "My love for Heathcliff resembles the eternal rocks beneath."
+      }
+    ]
+  },
+  {
+    "book_id": "fitzgerald_great_gatsby",
+    "title": "The Great Gatsby",
+    "author": "F. Scott Fitzgerald",
+    "genre": "Modernist Fiction",
+    "sentences": [
+      {
+        "sentence_id": "gg_001",
+        "text": "So we beat on, boats against the current, borne back ceaselessly into the past.",
+        "is_highlight": 1,
+        "likes": 22450,
+        "context_before": "Gatsby believed in the green light, the orgastic future that year by year recedes before us. It eluded us then, but that's no matter—tomorrow we will run faster, stretch out our arms farther.... And one fine morning——",
+        "context_after": "End of Chapter 9."
+      },
+      {
+        "sentence_id": "gg_002",
+        "text": "There are only the pursued, the pursuing, the busy and the tired.",
+        "is_highlight": 1,
+        "likes": 11210,
+        "context_before": "\"Nevertheless you did throw me over,\" said Jordan suddenly. \"You threw me over on the telephone. I don't give a damn about you now, but it was a new experience for me, and I felt a little dizzy for a while.\"",
+        "context_after": "We shook hands."
+      },
+      {
+        "sentence_id": "gg_003",
+        "text": "We shook hands.",
+        "is_highlight": 0,
+        "likes": 0,
+        "context_before": "There are only the pursued, the pursuing, the busy and the tired.",
+        "context_after": "\"Nick, have you got any tobacco?\" he asked."
+      },
+      {
+        "sentence_id": "gg_004",
+        "text": "\"Nick, have you got any tobacco?\" he asked.",
+        "is_highlight": 0,
+        "likes": 0,
+        "context_before": "We shook hands.",
+        "context_after": "He looked at his watch and got up."
+      },
+      {
+        "sentence_id": "gg_005",
+        "text": "He looked at her the way all women want to be looked at by a man.",
+        "is_highlight": 1,
+        "likes": 8300,
+        "context_before": "The officer looked at Daisy while she was speaking, in a way that every young girl wants to be looked at sometime.",
+        "context_after": "Because it seemed romantic to me I have remembered the incident ever since."
+      },
+      {
+        "sentence_id": "gg_006",
+        "text": "Because it seemed romantic to me I have remembered the incident ever since.",
+        "is_highlight": 0,
+        "likes": 0,
+        "context_before": "He looked at her the way all women want to be looked at by a man.",
+        "context_after": "His name was Jay Gatsby, and I hadn't seen him since."
+      }
+    ]
+  },
+  {
+    "book_id": "shelley_frankenstein",
+    "title": "Frankenstein",
+    "author": "Mary Shelley",
+    "genre": "Gothic Science Fiction",
+    "sentences": [
+      {
+        "sentence_id": "fr_001",
+        "text": "Beware; for I am fearless, and therefore powerful.",
+        "is_highlight": 1,
+        "likes": 9840,
+        "context_before": "\"You have destroyed the work which you began; what is it that you intend? Do you dare to break your promise?\"",
+        "context_after": "\"I will watch with the wiliness of a snake, that I may sting with its venom. Man, you shall repent of the injuries you inflict.\""
+      },
+      {
+        "sentence_id": "fr_002",
+        "text": "Nothing is so painful to the human mind as a great and sudden change.",
+        "is_highlight": 1,
+        "likes": 4520,
+        "context_before": "The sun might shine or the clouds might lower: but nothing could appear to me as it had done.",
+        "context_after": "The sun might shine or the clouds might lower: but nothing could appear to me as it had done."
+      },
+      {
+        "sentence_id": "fr_003",
+        "text": "The sun might shine or the clouds might lower: but nothing could appear to me as it had done.",
+        "is_highlight": 0,
+        "likes": 0,
+        "context_before": "Nothing is so painful to the human mind as a great and sudden change.",
+        "context_after": "I had been calm, but now a strange agitation possessed me."
+      },
+      {
+        "sentence_id": "fr_004",
+        "text": "I had been calm, but now a strange agitation possessed me.",
+        "is_highlight": 0,
+        "likes": 0,
+        "context_before": "The sun might shine or the clouds might lower: but nothing could appear to me as it had done.",
+        "context_after": "I could not sleep, but paced my chamber in agony."
+      }
+    ]
+  }
+]
